@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">MORENT</div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search something here">
+        <button class="filter-button">
+            <i class="fas fa-sliders-h"></i>
+        </button>
+    </div>
+    <div class="user-menu">
+        <button class="icon-button">
+            <i class="fas fa-heart"></i>
+        </button>
+        <button class="icon-button">
+            <i class="fas fa-bell"></i>
+            <span class="notification-dot"></span>
+        </button>
+        <button class="icon-button">
+            <i class="fas fa-cog"></i>
+        </button>
+        <div class="user-profile">
+            <img src="./img/user.jpg" alt="User Profile">
+        </div>
+    </div>
+</header>
+<div class="hero">
+<div class="hero-section">
+    <div class="hero-content">
+      <h1>The Best Platform for Car Rental</h1>
+      <p>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+      <button class="rent-button">Rental Car</button>
+    </div>
+    <div class="hero-image">
+      <img src="./img/car.png" alt="Car Image">
+    </div>
+  </div>
+
+  <div class="hero-section2">
+    <div class="hero-content">
+      <h1>The Best Platform for Car Rental</h1>
+      <p>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+      <button class="rent-button">Rental Car</button>
+    </div>
+    <div class="hero-image">
+      <img src="./img/car2.png" alt="Car Image">
+    </div>
+  </div>
+</div>
+
+
+
+ <div class="container2">
+<div class="form-container"> 
+    <div class="radio-group">
+        <input type="radio" id="pick-up" name="service" value="Pick-Up" checked>
+        <label for="pick-up">Pick - Up</label>
+    </div>
+   
+    <div class="main-group">
+    <div class="form-group">
+        <label for="location">Locations</label>
+        <select id="location">
+            <option value="" disabled selected>Select your city</option>
+            <option value="city1">City 1</option>
+            <option value="city2">City 2</option>
+            <option value="city3">City 3</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="date">Date</label>
+        <select id="date">
+            <option value="" disabled selected>Select your date</option>
+            <option value="date1">Date 1</option>
+            <option value="date2">Date 2</option>
+            <option value="date3">Date 3</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="time">Time</label>
+        <select id="time">
+            <option value="" disabled selected>Select your time</option>
+            <option value="time1">Time 1</option>
+            <option value="time2">Time 2</option>
+            <option value="time3">Time 3</option>
+        </select>
+    </div>
+    </div>
+</div>
+
+ <img  style="width:  7%; height: 7%; margin-top: 20px;" src="./img/updown.png" alt="">
+
+ <div class="form-container"> 
+    <div class="radio-group">
+        <input type="radio" id="pick-up" name="service" value="Pick-Up" checked>
+        <label for="pick-up">Drop - Of </label>
+    </div>
+   
+    <div class="main-group">
+    <div class="form-group">
+        <label for="location">Locations</label>
+        <select id="location">
+            <option value="" disabled selected>Select your city</option>
+            <option value="city1">City 1</option>
+            <option value="city2">City 2</option>
+            <option value="city3">City 3</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="date">Date</label>
+        <select id="date">
+            <option value="" disabled selected>Select your date</option>
+            <option value="date1">Date 1</option>
+            <option value="date2">Date 2</option>
+            <option value="date3">Date 3</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="time">Time</label>
+        <select id="time">
+            <option value="" disabled selected>Select your time</option>
+            <option value="time1">Time 1</option>
+            <option value="time2">Time 2</option>
+            <option value="time3">Time 3</option>
+        </select>
+    </div>
+    </div>
+</div>
+</div>
+
+<br> <br> <br> <br> <br>
+
+    <div class="container">
+        <h2 style="color: #90A3BF; font-weight: lighter;">Popular Car</h2>
+        <br> <br>
+        <div class="car-list">
+            <div class="car-card">
+              <h3>Koenigsegg</h3>
+              <p style="font-weight: bolder;">Sport</p>
+          <img src="https://via.placeholder.com/300" alt="Koenigsegg"> <br> <br>
+                <p><i class="fas fa-gas-pump"></i> 90L  <i class="fas fa-cogs"></i> Manual  <i class="fas fa-user"></i> 2 People </p>
+                <div class="price-button">
+                    <p class="price">$99.00/day</p>
+                    <button class="rent-button">Rent Now</button>
+                </div>
+                <button class="favorite-button"><i class="fas fa-heart"></i></button>
+            </div>
+            <div class="car-card">
+              <h3>Nissan GT-R</h3>
+              <p style="font-weight: bolder;">Sport</p>
+                <img src="https://via.placeholder.com/300" alt="Nissan GT-R">   <br> <br>
+                <p><i class="fas fa-gas-pump"></i> 80L <i class="fas fa-cogs"></i> Manual <i class="fas fa-user"></i> 2 People</p>
+                <div class="price-button">
+                    <p class="price">$80.00/day</p>
+                    <button class="rent-button">Rent Now</button>
+                </div>
+                <button class="favorite-button"><i class="far fa-heart"></i></button>
+            </div>
+            <div class="car-card">
+              <h3>Rolls-Royce</h3>
+              <p style="font-weight: bolder;">Sedan</p>
+                <img src="https://via.placeholder.com/300" alt="Rolls-Royce">
+                <br> <br>
+                <p><i class="fas fa-gas-pump"></i> 70L <i class="fas fa-cogs"></i> Manual <i class="fas fa-user"></i> 4 People</p>
+                <div class="price-button">
+                    <p class="price">$96.00/day</p>
+                    <button class="rent-button">Rent Now</button>
+                </div>
+                <button class="favorite-button"><i class="fas fa-heart"></i></button>
+            </div>
+            <div class="car-card">
+              <h3>Nissan GT-R</h3>
+              <p style="font-weight: bolder;">Sport</p>
+                <img src="https://via.placeholder.com/300" alt="Nissan GT-R"> 
+               <br> <br>
+                <p><i class="fas fa-gas-pump"></i> 80L <i class="fas fa-cogs"></i> Manual <i class="fas fa-user"></i> 2 People</p>
+                <div class="price-button">
+                    <p class="price">$80.00/day</p>
+                    <button class="rent-button">Rent Now</button>
+                </div>
+                <button class="favorite-button"><i class="far fa-heart"></i></button>
+            </div>
+        </div>
+        <br> <br>
+        <h2 style="color: #90A3BF; font-weight: lighter;">Recommendation Car</h2>
+        <br> <br>
+        <div class="car-list">
+            <div class="car-card">
+              <h3>All New Rush</h3>
+              <p style="font-weight: bolder;">Suv</p>
+                <img src="https://via.placeholder.com/300" alt="All New Rush"> <br> <br>
+              
+                <p><i class="fas fa-gas-pump"></i> 70L <i class="fas fa-cogs"></i> Manual <i class="fas fa-user"></i> 6 People</p>
+                <div class="price-button">
+                    <p class="price">$72.00/day</p>
+                    <button class="rent-button">Rent Now</button>
+                </div>
+                <button class="favorite-button"><i class="far fa-heart"></i></button>
+            </div>
+            <div class="car-card">
+              <h3>CR-V</h3>
+              <p style="font-weight: bolder;">Suv</p>
+                <img src="https://via.placeholder.com/300" alt="CR-V"> <br> <br>
+              
+                <p><i class="fas fa-gas-pump"></i> 80L <i class="fas fa-cogs"></i> Manual <i class="fas fa-user"></i> 6 People</p>
+                <div class="price-button">
+                    <p class="price">$80.00/day</p>
+                    <button class="rent-button">Rent Now</button>
+                </div>
+                <button class="favorite-button"><i class="fas fa-heart"></i></button>
+            </div>
+            <div class="car-card">
+              <h3>All New Terios</h3>
+              <p style="font-weight: bolder;">Suv</p>
+                <img src="https://via.placeholder.com/300" alt="All New Terios"> <br> <br>
+              
+                <p><i class="fas fa-gas-pump"></i> 90L <i class="fas fa-cogs"></i> Manual <i class="fas fa-user"></i> 6 People</p>
+                <div class="price-button">
+                    <p class="price">$74.00/day</p>
+                    <button class="rent-button">Rent Now</button>
+                </div>
+                <button class="favorite-button"><i class="far fa-heart"></i></button>
+            </div>
+            <div class="car-card">
+              <h3>CR-V</h3>
+              <p style="font-weight: bolder;" >Suv</p>
+                <img src="https://via.placeholder.com/300" alt="CR-V"> <br> <br>
+              
+                <p><i class="fas fa-gas-pump"></i> 80L <i class="fas fa-cogs"></i> Manual <i class="fas fa-user"></i> 6 People</p>
+                <div class="price-button">
+                    <p class="price">$80.00/day</p>
+                    <button class="rent-button">Rent Now</button>
+                </div>
+                <button class="favorite-button"><i class="far fa-heart"></i></button>
+            </div>
+        </div>
+    </div>
+    <br> <br> <br>
+
+    <footer>
+      <div class="footer-container">
+          <div class="footer-section">
+              <h2>MORENT</h2>
+              <p>Our vision is to provide convenience and help increase your sales business.</p>
+          </div>
+          <div class="footer-links">
+              <div>
+                  <h3>About</h3>
+                  <p>How it works</p>
+                  <p>Featured</p>
+                  <p>Partnership</p>
+                  <p>Business Relation</p>
+              </div>
+              <div>
+                  <h3>Community</h3>
+                  <p>Events</p>
+                  <p>Blog</p>
+                  <p>Podcast</p>
+                  <p>Invite a friend</p>
+              </div>
+              <div>
+                  <h3>Socials</h3>
+                  <p>Discord</p>
+                  <p>Instagram</p>
+                  <p>Twitter</p>
+                  <p>Facebook</p>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>©2022 MORENT. All rights reserved</p>
+          <div>
+              <p>Privacy & Policy</p>
+              <p>Terms & Condition</p>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
